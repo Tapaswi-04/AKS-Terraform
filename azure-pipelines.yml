@@ -20,7 +20,7 @@ steps:
   inputs:
     command: 'plan'
     environmentServiceName: 'aks-terraform'
-    allowTelemetryCollection: false
+    allowTelemetryCollection: true
 
 - task: TerraformCLI@0
   displayName: Terraform Apply
